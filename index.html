@@ -1,0 +1,2428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head runat="server">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5SFNKX4');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Test -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>NAFA Year In Review 2023/24</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- generics -->
+    <link href="~/nafa-corp/favicon.ico" rel="shortcut icon" />
+    <link rel="icon" href="~/nafa-corp/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" href="~/nafa-corp/favicon-32x32.png" sizes="32x32">
+
+    <!-- Android -->
+    <link rel="shortcut icon" sizes="192x192" href="~/nafa-corp/android-chrome-192x192.png">
+    <link rel="shortcut icon" sizes="256x256" href="~/nafa-corp/android-chrome-256x256.png">
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="~/nafa-corp/apple-touch-icon.png" sizes="180x180">
+
+
+    <link type="text/css" href="theme/default/style/style-bak.css" rel="stylesheet" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script async src=https://www.googletagmanager.com/gtag/js?id=UA-53577045-1></script>
+
+    <script>
+
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-53577045-1');
+
+    </script>
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SFNKX4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="header">
+        <div class="header-content">
+            <div class="left-section">
+                <!-- Empty or optional content if needed -->
+            </div>
+            <div class="logo-section">
+                <img src="theme/default/images/nafa-uas-logo-white.png" alt="NAFA and UAS Logo" class="logo">
+            </div>
+            <div class="right-section">
+                <a href="theme/default/pdf/NAFA YIR 2023-2024.pdf" download class="btn-cus btn-img-right btn-white">Download Year in Review 2023/24</a>
+                <div class="menu-button" id="menuToggle">
+                    <!-- <span class="navicon"></span> -->
+                    <img src="theme/default/images/menu.svg" alt="Menu Icon" class="menu-icon">
+                    <img src="theme/default/images/close.svg" alt="Close Icon" class="close-icon" id="closeIcon">
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <ul class="menu-list">
+            <li><a onclick="goToSection('chairman-message')">CHAIRMAN'S MESSAGE</a></li>
+            <li><a onclick="goToSection('leadership-spotlight')">LEADERSHIP SPOTLIGHT</a></li>
+            <li><a onclick="goToSection('number-highlight')">NUMBER HIGHLIGHTS</a></li>
+            <li><a onclick="goToSection('a-kaleidoscope-of-triumphs-and-collaborations')">A Kaleidoscope of Triumphs<br/>and Collaborations</a></li>
+            <li><a onclick="goToSection('leaping-forward-towards-nafa100')">Leaping forward towards NAFA100</a></li>
+            <li><a onclick="goToSection('giving-back')">GIVING BACK</a></li>
+            <li><a onclick="goToSection('highlights-video')">HIGHLIGHTS VIDEO</a></li>
+            
+            <a href="theme/default/pdf/NAFA YIR 2023-2024.pdf" download class="btn-cus btn-img-right btn-white">Download Year in Review 2023/24</a>
+        </ul>
+    </div>
+
+    <!-- Main Scroll Container -->
+    <div id="main-scroll-container">
+        <div class="container bg-black towards-nafa-100" id="towards-nafa-100">
+            <div class="container-wrapper">
+
+                <div class="stroke-container">
+
+                    <video id="strokeVideo" autoplay muted playsinline>
+                        <source src="theme/default/images/towards-nafa-100-stroke.webm" type="video/webm">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <h1 class="main-heading">TOWARDS NAFA 100</h1>
+                <img src="theme/default/images/dancer.png" alt="Swirl Dancer" class="main-visual">
+                <a href="javascript:void(0)" class="btn-round-arrow-up btn-white" id="btn-down"></a>
+            </div>
+        </div>
+
+        <div class="content" id="content">
+            <p class="description" id="description">
+                Marching on to our centenary milestone with a courage&nbsp;to&nbsp;create
+            </p>
+        </div>
+
+        <div class="container next-container bg-black chairman-message" id="chairman-message">
+            <div class="container-wrapper">
+                <div class="stroke-container">
+
+                    <video id="strokeVideo-chairman" muted playsinline>
+                        <source src="theme/default/images/chairmans-message-v2.webm" type="video/webm">
+
+                        Your browser does not support the video tag.
+                    </video>
+                    <img class="spark" src="theme/default/images/sparkling-effect.png" />
+                </div>
+
+                <h1 class="sub-heading" id="chairManSubHeading">CHAIRMAN'S MESSAGE</h1>
+            </div>
+
+            <div class="content-wrapper-message">
+                <img src="theme/default/images/chairman.png" alt="Chairman Image" class="chairman-image">
+                <div class="text-content">
+                    <p>Having celebrated major milestones such as the academy's 85<sup>th</sup> anniversary and being a founding
+                        member of the University of the Arts Singapore (UAS), Nanyang Academy of Fine Arts (NAFA) is now
+                        at a monumental juncture in its history to redefine the global arts and cultural landscape.</p>
+                    <p>NAFA most recently developed the NAFA100 Strategic Vision Masterplan for 2025 to 2038, signaling
+                        our intent and commitment to spearhead the arts, forming strong connections across the world,
+                        empowering our students and alumni as empathetic changemakers to uplift those around us—NAFA
+                        will evolve as a centenarian worth emulating.</p>
+                    <p class="more-content">As Singapore's pioneer arts institution, we will continue to be custodians for Southeast Asian
+                        arts research and learning, elevate our distinctive cradle-to-grey educational pathways, enhance
+                        and deepen our programme offerings, nurture partnerships with eminent institutions around the
+                        globe; all with a bold spirit of innovation and enterprise.</p>
+                    <p class="more-content">With open minds and open hearts, and grounded by timeless values of passion, care, and achieving
+                        excellence, we will continue advocating for diverse artistic creations with meaningful social
+                        impact. Let us scale new heights together as we march on to our 100<sup>th</sup> year with a courage to
+                        create.</p>
+                    <div class="signature">
+                        <hr>
+                        <span>Ms Low Sin Leng</span>
+                    </div>
+                    <a href="javascript:void(0)" class="btn-cus btn-read-more btn-white">Read More</a>
+                </div>
+            </div>
+            <!-- <div class="spacer"></div> -->
+        </div>
+
+        <div class="container next-container bg-white Ldship-Spot" id="leadership-spotlight">
+            <div class="container-wrapper">
+                <div class="stroke-container">
+                    <video id="strokeVideo-leadership" muted playsinline>
+                        <source src="theme/default/images/leadership-spotlight-v2.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="theme/default/images/art-student-v2.png" alt="Art Student" class="artStudent" />
+                </div>
+                <h1 class="sub-heading purple" id="ldrSubHeading">Leadership Spotlight</h1>
+            </div>
+            <div class="content-wrapper" id="ldrContentWrapper">
+                <div class="sp-content">
+                    <div class="sp-imgs-sec">
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/wee-ee-cheong.jpg" alt="Mr Wee Ee Cheong">
+                            <div class="sp-card-content">
+                            <p class="card-title">Patron</p>
+                            <p class="card-name">Mr Wee Ee Cheong</p>
+                            </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/dr-ernest-kan-yaw-kiong.jpg"
+                                alt="Dr Ernest Kan Yaw Kiong">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Dr Ernest Kan Yaw Kiong</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/prof-elvin-lim-tze-kiat.jpg"
+                                alt="Prof Elvin Lim Tze Kiat">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Prof Elvin Lim Tze Kiat</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sp-imgs-sec">
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/low-sin-leng.jpg" alt="Ms Low Sin Leng">
+                            <div class="sp-card-content">
+                            <p class="card-title">Chairman and Board Director</p>
+                            <p class="card-name">Ms Low Sin Leng</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/aun-koh.jpg" alt="Mr Aun Koh">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Mr Aun Koh</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/christine-low-chi-kien.jpg" alt="christine-low-chi-kien">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Ms Christine Low Chi Kien</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="sp-imgs-sec">
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/chia-wee-boon.jpg" alt="Mr Chia Wee Boon">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Mr Chia Wee Boon</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/dr--kwong-yuk-wah.jpg" alt="Dr Kwong Yuk Wah">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Dr Kwong Yuk Wah</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/low-sze-wee.jpg" alt="low sze wee">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Mr Low Sze Wee</p>
+                        </div>
+                        </div>                        
+                    </div>
+                    <div class="sp-imgs-sec">
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/harasha-bte-khalid-bafana.jpg"
+                                alt="Ms Harasha bte Khalid Bafana">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Ms Harasha bte Khalid Bafana</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/lee-mei-hui-amanda.jpg" alt="Ms Lee Mei Hui Amanda">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Ms Lee Mei Hui Amanda</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/simon-ong-chin-sim.jpg" alt="Mr Simon Ong Chin Sim">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Mr Simon Ong Chin Sim</p>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="sp-imgs-sec">
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/professor-heng-chye-kiang.jpg"
+                                alt="Prof Heng Chye Kiang">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Prof Heng Chye Kiang</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/charles-lim-sing-siong.jpg"
+                                alt="charles lim sing siong">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Mr Charles Lim Sing Siong BBM/PBM</p>
+                        </div>
+                        </div>
+                        <div class="sp-img-card">
+                            <img src="theme/default/images/staff/tan-miao-ken-may.jpg" alt="Ms Tan Miao Ken May">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Ms Tan Miao Ken May</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="sp-imgs-sec last-row">
+                        <div class="last-down-card">
+                            <img src="theme/default/images/staff/tan-soh-wai-lan.jpg" alt="Mrs Tan-Soh Wai Lan">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Mrs Tan-Soh Wai Lan</p>
+                        </div>
+                        </div>
+                        <div class="last-down-card">
+                            <img src="theme/default/images/staff/tham-kwang-hsueh-yvonne.jpg"
+                                alt="Ms Tham Kwang Hsueh Yvonne">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Ms Tham Kwang Hsueh Yvonne</p>
+                        </div>
+                        </div>
+                       
+                        <div class="last-down-card">
+                            <img src="theme/default/images/staff/associate-professor-jesvin-yeo-puay-hwa.jpg"
+                                alt="associate professor jesvin yeo puay hwa">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Prof Jesvin Yeo Puay Hwa</p>
+                            </div>
+                        </div>
+
+                        <div class="last-down-card">
+                            <img src="theme/default/images/staff/dr-zhou-zhaocheng.jpg"
+                                alt="Ms Tham Kwang Hsueh Yvonne">
+                            <div class="sp-card-content">
+                            <p class="card-title">Board Director</p>
+                            <p class="card-name">Dr Zhou Zhaocheng</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="sp-btn-sec">
+                        <a href="https://www.nafa.edu.sg/about-us/leadership" target="_blank" class="btn-cus btn-img-right btn-white">Our Leadership</a>
+                        <!-- <a href="https://www.nafa.edu.sg/about-us/leadership#key-management-staff" target="_blank" class="btn-cus btn-img-right btn-white">Key Management Staff</a> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- number highlights html start here -->
+
+        
+        <div class="container next-container numbers-container bg-black number-hightlight" id="number-highlight">
+            <div class="container-wrapper">
+                <div class="stroke-container">
+                    <video id="strokeVideo-number" muted playsinline>
+                        <source src="theme/default/images/number-highlights-v2.webm" type="video/webm">
+        
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="theme/default/images/schooloftheatre.png" alt="school of theatre" class="school-theatre" />
+                </div>
+                <h1 class="sub-heading" id="subheadingNumber">Number Highlights</h1>
+            </div>
+            <div class="slider-wrapper" id="numbersSlider">
+                <div class="slider-container">
+                    
+
+                    <div class="slider-slide" id="slide-1">
+                        <h3>Tertiary Education</h3>
+                        <div class="nm-slide">
+                            <div class="nm-slide-toptwo">
+                                <h1 class="under-s-h">3<span>Faculties</span></h1>
+                                <h1 class="under-s-h">9<span>Schools</span></h1>
+                            </div>
+                            <div class="nm-sb-two">
+                                <div class="nm-sb-p">
+                                    <h1>22</h1>
+                                    <p class="sb-p">Diploma and Bachelor's Degree Programmes</p>
+    
+                                </div>
+                                <div class="nm-sb-p">
+                                    <h1>3</h1>
+                                    <p class="sb-p">Master's Degree Programmes</p>
+    
+                                </div>
+                                <div class="nm-sb-p">
+                                    <h1>1</h1>
+                                    <p class="sb-p">NAFA Foundation Programme</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="slider-slide slide-unfocused" id="slide-2">
+                        <h3>Tertiary Education</h3>
+                        <div class="nm-slide large-slide">
+                            <div class="nm-slide-top ">
+                                    <p>More than</p>
+                                    <h1>500</h1>
+                                    <p>diploma and degree students travelled abroad for Overseas Immersion Programmes, Study
+                                        Trips and International Placements</p>
+                            </div>
+                            <div class="nm-slide-top">
+                                    <p>More than</p>
+                                    <h1>25</h1>
+                                    <p>Memoranda of Understanding signed with prominent educational institutions and
+                                        organisations</p>
+                            </div>
+                            <div class="nm-slide-top">
+                                <h1><span>Over</span> S$1.2 million <span>given out to</span></h1>
+                                <div class="slider-row">
+                                    <div class="slider-row-left">
+                                        <h1>239</h1>
+                                    </div>
+                                    <div class="slider-row-right">
+                                        <p>students in scholarships, merit awards and bursaries</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nm-slide-bottom slider-row">
+                                <div class="slider-row-left">
+                                <h1>2510</h1>
+                            </div>
+                            <div class="slider-row-right">
+                                <p>attendees at NAFA Open House 2024</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="slider-slide slide-unfocused" id="slide-3">
+                        <h3>Lifelong Education</h3>
+                        <div class="nm-slide">
+                            <div class="nm-slide-three">
+                                <h1>933</h1>
+                                <p>Places taken up in Certificate Courses</p>
+                            </div>
+                            <div class="nm-slide-three">
+                                <h1>1201</h1>
+                                <p>Places taken up in Short Courses</p>
+                            </div>
+                            <div class="nm-slide-three">
+                                <h1>11</h1>
+                                <p>new Short Courses in craft, design, fine art and wellness</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="slider-slide slide-unfocused" id="slide-4">
+                        <h3>Children's Enrichment and Arts Preschool</h3>
+                        <div class="nm-slide">
+                            <div class="nm-slide-top">
+                                <h1>5,024</h1>
+                                <p>Young talents in 
+                                    <br/>
+                                   art,
+                                        dance, drama and music weekend classes</p>
+                            </div>
+                            <br/>
+    
+                            <div class="nm-slide-top">
+                                <p>New preschool campus at</p>
+                                <h1>70</h1>
+                                <p>Bendeemer Road</p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                    <div class="slider-slide slide-unfocused" id="slide-5">
+                        <h3>Alumni and Employment</h3>
+                        <div class="nm-slide">
+                            <div class="nm-slide-top">
+                                <p>Over</p>
+                                <h1>19,000</h1>
+                                <p>full-time graduates to date</p>
+                            </div>
+                            <div class="nm-slide-bottomtwo">
+                                <h1>751</h1>
+                                <p>graduates from the Class of 2023</p>
+                            </div>
+                            <div class="nm-slide-bottomtwo">
+                                <h1>78%</h1>
+                                <p>overall employment rate for diploma and degree graduates</p>
+                            </div>
+                            <div class="nm-slide-bottomtwo">
+                                <h1>9 in 10 </h1>
+                                <p>in employment secured jobs before graduation or within 3 months after graduation</p>
+                            </div>
+                            <div class="nm-slide-bottomtwo">
+                                <h1>1 in 2</h1>
+                                <p>interns were offered full-time employment after internship</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="slider-slide slide-unfocused" id="slide-6">
+                        <h3>Organisational Culture</h3>
+                        <div class="nm-slide">
+                            <div class="nm-slide-top">
+                                <!-- <p>Ranked</p>
+                                <h1>#4</h1>
+                                <p>for the Education Sector and </p>
+                                <h1>#63</h1>
+                                <p>among all employers in Singapore's Best Employers 2024</p> -->
+
+                                <h1><span>Ranked</span> #4 <span>for the Education Sector and</span></h1>
+                                <h1>#63 <span>among all employers in Singapore's Best Employers 2024</span></h1>
+                            </div>
+                          
+    
+                            <div class="nm-slide-top">
+                                <h1>2</h1>
+                                <p>Tripartite Alliance Awards for Work-Life Excellence and Leadership in 2023</p>
+                            </div>
+                            <div class="nm-slide-top">
+                                <p>National Workplace Learning Organisation of Competence Gold Award 2023</p>
+                            </div>
+                            <div class="nm-slide-top no-border">
+                                <p>Charity Transparency Award 2023</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container next-container bg-black tri-collaboration" id="a-kaleidoscope-of-triumphs-and-collaborations"> 
+            <div class="container-wrapper">
+                <div class="stroke-container">
+                    <video id="strokeVideo-collab" autoplay muted playsinline>
+                        <source src="theme/default/images/collaboration-v2.webm" type="video/webm">
+        
+                        Your browser does not support the video tag.
+                    </video> 
+                    <img src="theme/default/images/student-with-laptop.png" alt="student with laptop" class="student-laptop"/>
+                </div>
+               
+                <h1 class="sub-heading" id="subheadingCollab">A Kaleidoscope of Triumphs<br/>and Collaborations</h1>
+            </div>
+
+            <div class="collaboration-lead-in">
+                <p>
+                    As one of the leading arts institutions in the region, 
+                    NAFA upholds the spirit of unbridled creativity and 
+                    curiosity. By pushing the boundaries of learning and 
+                    providing a platform for artists to collaborate and 
+                    create, we continue to inspire generations to express 
+                    themselves through bold and impactful works of art.
+                    Over the past year, we have continued to cultivate a 
+                    community that fosters discourse, drives learning and 
+                    encourages co-creation. We also leveraged technology 
+                    to find new ways of expression. As we celebrate the 
+                    accomplishments of faculty, students, staff and artists 
+                    across the region, our commitment remains steadfast: 
+                    to empower artists with the courage&nbsp;to&nbsp;create.
+                </p>
+            </div>
+
+            <div class="slider-wrapper" id="clbContentWrapper">
+          
+                <div class="coll-content">
+                <div class="collaboration-content">
+                    <div class="slideshow-container">
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-1-Flying-Balloons.jpg" />
+                            <p><i>Object theatre performing group Flying Balloons Puppet performing Jala Lan Jana: The Everlasting Dance</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-2-Wendy-Sia.jpg" />
+                            <p><i>Wendi Sia from Gerimis Art Project presented her research on ancestral practices of the Semai people in Central Peninsular Malaysia </i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-3-Ba-Bau-AIR.jpg" />
+                            <p><i>Bachelor of Arts (Honours) Fine Art students participating in the zine-making workshop facilitated by Hanoi-based Ba Bau Art Collective</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-4-A-Song-Art-Club.jpg" />
+                            <p><i>Nguyen Vu Xuân-Hạ and Mai Huyen Chi from A Sông Art Club facilitated an interactive spring roll making session as part of their presentation</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-5-Dialogue-panellists.jpg" />
+                            <p><i>Dialogue session panelists from left to right: Nguyen Vu Xuân-Hạ, Kieu-Anh Nguyen, Wendi Sia, Shuchita Kapur, Meyda Bestari and Dr Bridget Tracy Tan </i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-6-Overseas-presenters-livestreaming.jpg" />
+                            <p><i>Overseas presenters Aliansyah Caniago and Catherine Sarah Young joined the dialogue session via livestreaming</i></p>
+                        </div>
+                        
+                    
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                     
+                   
+                    <div class="collab-con-right">
+                        <h2>Southeast Asian Arts Forum 2023: 
+                            Sustainability 2.0: Coding the World That Will 
+                            Remake Itself</h2>
+                        <p> Continuing from the previous years' sustainability-centred 
+                            theme, the 2023 Southeast Asian Arts Forum presented 
+                            'Sustainability 2.0: Coding the World That Will Remake 
+                            Itself', a two-day hybrid event that highlighted creative 
+                            practices working towards harmony between humans and 
+                            nature. 
+                        </p>
+                        <p>The forum saw 11 leading regional artists, designers, 
+                            artisans and scholars from a variety of creative and 
+                            academic disciplines, come together to examine the 
+                            concept of sustainable consumption and production in 
+                            their fields. 
+                        </p>
+                        <p>Particularly memorable was a specially commissioned 
+                            performance by Yogyakarta-based object theatre 
+                            performing group, Flying Balloons Puppet. By tracing 
+                            the lineage of rivers and the communities in the vicinity, 
+                            the group drew attention to the intricate, ever-evolving 
+                            relationship between man and nature.
+                        </p>
+                        <p>
+                            Additionally, in line with the Institute of Southeast Asian 
+                            Arts (ISEAA)'s mission of championing practice-based and 
+                            practice-led learning, the forum also hosted a zine-making 
+                            workshop for NAFA students from the Bachelor of Arts 
+                            (Honours) Fine Art programme. The workshop, facilitated 
+                            by the Hanoi-based Ba Bau Art Collective, centred 
+                            around the theme of space-making. Students were 
+                            given the opportunity to examine how responsibility and 
+                            sustainability play a part in building communities of the 
+                            future, and to put together their findings and responses in 
+                            a mini-publication.
+                        </p>
+                        <p>
+                            Finally, there was also a dialogue session, where artists 
+                            explored the past and future of their practices, and shared 
+                            innovative ways to create and push boundaries as a 
+                            practitioner in Southeast Asia. Ultimately, the forum not 
+                            only  showcased the artists' determination to survive, but 
+                            also their profound search for harmony between humans 
+                            and our surrounding ecology.
+                        </p>
+                        <p>
+    
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="collaboration-content">
+                    <div class="collab-con-right">
+                        <h2> Arts & Design Practice Research Exchange <i>Attending Differently: Practising Research</i></h2>
+                        <p> The inaugural Arts & Design Practice Research Exchange 
+                            (ADPRex) is Southeast Asia's first annual conference 
+                            dedicated to practice research. Held on 27 July 2023, it 
+                            saw NAFA's faculty come together to exchange insights 
+                            uncovered through various arts and design practices, and 
+                            share their visions for the future.
+                        </p>
+                        <p> Keynote speaker, Associate Professor (now Professor) 
+                            Jesvin Yeo Puay Hwa from Nanyang Technological 
+                            University, delivered a compelling presentation on 'Driving 
+                            Meaningful Social Change Through Creative Research'. This 
+                            highlighted the possibilities of combining creativity and 
+                            research to address complex societal challenges, explore 
+                            artistic making, inspire empathy and action, and challenge 
+                            the status quo. 
+                        </p>
+                        <p>Another keynote speaker, Dr Diana Salazar from Royal 
+                            College of Music (RCM), London offered an equally 
+                            inspiring presentation on 'Towards a Practice Research 
+                            Ecology: Radical Listening in the Conservatoire'. Dr Salazar 
+                            showcased how RCM, rooted in late 19<sup>th</sup> century classical 
+                            music, is evolving through new discourses, practices and 
+                            technologies—illustrating how research, once historically 
+                            overlooked, now forms a central part of RCM's identity. 
+                        </p>
+                        <p>
+                            This significant milestone positions NAFA as the leading 
+    centre of arts and design practice research in the region. It 
+    also underscores our commitment to shaping the future of 
+    arts and design practice research, and fostering a dynamic 
+    community of innovative thinkers and practitioners.
+                        </p>
+                    </div>
+                    <div class="slideshow-container">
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/20230727_2C8A3992_DON_MWP_HIRES.jpg" />
+                            <p><i>Photo credit: Memphis West Pictures/Don Wong</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/20230727_2C8A5379_DON_MWP_HIRES.jpg" />
+                            <p><i>Photo credit: Memphis West Pictures/Don Wong</i></p>
+                        </div>
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                </div>
+    
+                <div class="collaboration-content">
+                    <div class="slideshow-container">
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/inaugural-digital-interdisciplinary-arts-salon.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Matthew-Hawkins.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Yongwei-Fu.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Andreas-Schlegel.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Dayn-Ng.jpg" />
+                        </div>
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+
+                    <div class="collab-con-right">
+                        <h2>Inaugural Digital Interdisciplinary Arts Salon</h2>
+                        <p> The Faculty of Interdisciplinary Practices was established 
+                            in January 2023. On October 12 and 13, it celebrated the 
+                            integration of art, technology and culture with its inaugural 
+                            event, the Digital Interdisciplinary Arts Salon.  
+                        </p>
+                        <p>The NAFA Studio Theatre and Foyer was transformed into 
+                            a creative space for arts practitioners and academics to 
+                            gather, discuss, exchange ideas—and ultimately uncover 
+                            how to push boundaries of what is possible in the digital 
+                            age. 
+                        </p>
+                        <p>Prominent speakers such as Andreas Schlegel (LASALLE 
+                            College of the Arts, University of the Arts Singapore), Dayn 
+                            Ng (NAFA), Fu Yongwei (NAFA), and Matthew Hawkins 
+                            (Camberwell College of Arts, University of the Arts London) 
+                            energised the event. Together, they led the audience in 
+                            vibrant discussions delving into the exciting and evolving 
+                            digital world of interdisciplinary arts and design.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="collaboration-content">
+                   
+                    <div class="collab-con-right">
+                        <h2>Crowbar Awards 2023</h2>
+                        <p> NAFA's School of Design & Media students performed 
+                            exceptionally well at the prestigious Crowbar Awards 
+                            2023, themed 'The Multiplier'. Of the 600 submissions, our 
+                            talented students earned 10 Golds, 12 Silvers and seven 
+                            Bronzes. 13 of our students were also named finalists.  
+                        </p>
+                        <p>In addition, our students were crowned the Crowbar 
+                            Challenge Gold (winner). The adrenaline-pumping 
+                            challenge, presented by foodpanda, pushed teams of two 
+                            to five participants to their creative limits with a 48-hour 
+                            deadline to solve a brief. Evaluated on design, feasibility, 
+                            creativity, presentation skills and more, our students' 
+                            remarkable achievement underscores the rigorous training 
+                            embedded in NAFA's curriculum, which equips them with 
+                            critical skills and the ability to excel under pressure.
+                        </p>
+                    </div>
+                    <div class="slideshow-container">
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/IMG_7689.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/IMG_7731.jpg" />
+                        </div>
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                </div>
+    
+                <div class="collaboration-content">
+                    <div class="detail-left-img">
+                        <img src="theme/default/images/SPADE-Awards.jpg"/>
+                    </div>
+                   
+                    <div class="collab-con-right">
+                        <h2>Spatial Design Awards (SPADE) 2023</h2>
+                        <p>The Interior Design Confederation Singapore's (IDCS) 
+                            Design Excellence Awards (DEA) celebrates the 
+                            achievements of both professionals and students in 
+                            the interior design industry by recognising the best 
+                            commercial, residential, and public design projects in Asia 
+                            Pacific.
+                        </p>
+                        <p>For its 10<sup>th</sup> edition, IDCS brought back 26 of its most 
+                            popular award categories across two competition tracks: 
+                            Interior Design Excellence Awards (I-DEA) for professional 
+                            interior designers and firms, and Spatial Design Awards 
+                            (SPADE) for design students. 
+                        </p>
+                        <p>The prestigious competition saw NAFA's Bachelor of Arts 
+                            (Honours) Design Practice students secure the Bronze 
+                            award for Best Exhibition Design, Best Public Design, and 
+                            Best Sustainable Design. A student also received the Highly 
+                            Commended prize in Best Exhibition Design. The winners 
+                            were selected by an esteemed panel of highly regarded 
+                            interior design professionals. The awards were announced 
+                            at a ceremony held on 14 December 2023 at Shangri-La 
+                            Singapore.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="collaboration-content">
+                    
+                    <div class="collab-con-right">
+                        <h2> Living with the Rising Seas - Ideas 
+                            Competition for Singapore's South-eastern 
+                            Coastline </h2>
+                        <p>In 2023, Singapore's national water agency, PUB, launched 
+                            the 'Living with the Rising Seas' Ideas Competition. They 
+                            invited local tertiary students to propose innovative 
+                            ideas that can protect the South-eastern coastline of 
+                            Singapore from rising sea levels while still achieving 
+                            liveability, flexibility and sustainability. NAFA's Year 3 3D 
+                            Design students from Diploma in Design (Landscape and 
+                            Architecture) rose to the challenge and worked on the brief 
+                            as part of their Final Year Project.
+                        </p>
+                        <p>The competition garnered 32 entries from eight tertiary 
+                            institutions. Of the nine winning entries, four were from 
+                            NAFA in the Urban Promenade, and Nature-centred 
+                            Coastline typologies. The innovative ideas and concepts 
+                            generated may potentially influence PUB's future measures 
+                            for coastal protection, thereby leveraging the creativity of 
+                            the younger generation in tackling real-world challenges.
+                        </p>
+                    </div>
+                    <div class="detail-left-img">
+                        <img src="theme/default/images/Representatives-from-the-winning-teams-of-PUB’s-Living-with-the-Rising-Seas-Ideas-Competition.jpg"/>
+                        <p><i>Photo credit: PUB</i></p>
+                    </div>
+                    
+                </div>
+    
+                <div class="collaboration-content">
+                    <div class="slideshow-container">
+                        <!-- <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Picture1.jpg" />
+                        </div> -->
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Picture2.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Picture3.jpg" />
+                        </div>
+
+                        <!-- <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Picture4.jpg" />
+                        </div> -->
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Picture5.jpg" />
+                        </div>
+
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                    <div class="collab-con-right">
+                        <h2> Diploma in Theatre (Mandarin Drama) student 
+                            crowned top at Script Reading Competition</h2>
+                        <p>We are proud that our Diploma in Theatre (Mandarin 
+                            Drama) Year 2 student Luo Hanwen won first prize in the 
+                            University Professional category, for the National Theatre 
+                            of China's first Script Reading Competition. Additionally, 
+                            NAFA received the esteemed Outstanding Organisation 
+                            Award in recognition of our commitment to excellence in 
+                            arts education and support for student endeavours. Senior 
+                            Lecturer Zhao Na was also honoured with the Outstanding 
+                            Advisor Award, underscoring her dedication and guidance 
+                            to students in the Mandarin Drama programme. These 
+                            accolades reflect NAFA's continuous efforts and dedication 
+                            in nurturing talent and promoting excellence in the 
+                            performing arts.
+                        </p>
+                    </div>
+                </div>
+    
+              
+    
+                <div class="collaboration-content">
+                   
+                    <div class="collab-con-right">
+                        <h2> International Arts Festival 2023</h2>
+                        <p>NAFA's Junior Dance students stole the spotlight at the 
+                            International Arts Festival (IAF) organised by the Singapore 
+                            Dance Alliance. They took to the stage with 13 solo 
+                            performances in Ballet and Contemporary Dance, two duo 
+                            performances in Ballet and Chinese Dance, as well as one 
+                            trio, one ensemble, and seven group performances in Ballet 
+                            and Chinese Dance. 
+                        </p>
+                        <p>Their impressive performances earned them six Gold 
+                            Awards, five Silver Awards, nine Bronze Awards, eight 
+                            Outstanding Teacher Awards, and four Potential Awards. 
+                            Additionally, the Elite Chinese Dance Senior Level 3 group 
+                            received the Grand Award in the Grand Ensemble/Group 
+                            category and was invited to perform at IAF's Gala & Awards 
+                            Presentation ceremony.
+                        </p>
+                    </div>
+                    <div class="slideshow-container">
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/JD-IAF-20235139.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/JD-IAF-20235188.jpg" />
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/JD-IAF-20235207.jpg" />
+                        </div>
+
+                        
+
+                      
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                </div>
+    
+                <div class="collaboration-content">
+                    <div class="detail-left-img">
+                        <img src="theme/default/images/JM-Christopher-Rosy-Ho-Music-Competition.jpg"/>
+                    </div>
+                    
+                    <div class="collab-con-right">
+                        <h2>NAFA School of Young Talents Christopher & 
+                            Rosy Ho Music Competition 2023</h2>
+                        <p> 77 students participated in the NAFA School of Young 
+                            Talents Christopher & Rosy Ho Music Competition, held at 
+                            the esteemed Lee Foundation Theatre and organised by 
+                            the Junior Music department. The distinguished jury, which 
+                            comprised three international and six local members, were 
+                            blown away by the competitive showcase of talent across 
+                            the four categories of Piano, Violin, Cello and Flute, and 
+                            Chinese Instruments. 
+                        </p>
+                        <p>Ultimately, 12 contestants emerged victorious. The winners 
+                            went on to showcase their musical prowess at the winners' 
+                            concert and prize-giving ceremony on 4 June 2023. 
+                            Besides recognition of their musical accomplishments, 
+                            they also received certificates and prize money to support 
+                            their tuition fees, marking a significant milestone in their 
+                            artistic journey.
+                            </p>
+                    </div>
+                   
+                </div>
+
+                <div class="collaboration-content">
+                    
+                    <div class="collab-con-right">
+                        <h2>XEMX: 5 Friends 10 Years Art Infinite</h2>
+                        <p> XEM is a group of visual artists based in Saigon, founded 
+                            by five Vietnamese multidisciplinary artists, Nguyễn 
+                            Thanh Trúc, Quang Lâm, Phan Quang, Hoàng Dương Cầm 
+                            and Ưu Đàm Trần Nguyễn. XEM's experimental practices 
+                            have led to the creation of videos, photographs, digital 
+                            games, and installations—all of which advocate for 
+                            sustainability by remaining responsive and adaptable to 
+                            evolving socio-economic and cultural contexts. United by 
+                            shared ideologies, aesthetics and beliefs, the works of 
+                            XEM symbolise how hopes and dreams can manifest in 
+                            contemporary times and everyday life. 
+                        </p>
+                        <p><i>XEMX: 5 Friends 10 Years Art Infinite </i>was held in 
+                            commemoration of XEM's 10<sup>th</sup> anniversary. NAFA was 
+                            proud to be part of this milestone celebration.  
+                            </p>
+                        <p>In conjunction with the exhibition, the Institute of 
+                            Southeast Asian Arts (ISEAA) collaborated with NAFA's 
+                            academic schools to increase students' exposure to 
+                            Southeast Asian art practices. For example, students 
+                            participated in an Art Clinic and used the XEM exhibition as 
+                            research material. They were also encouraged to explore 
+                            what 'collective' means in contemporary Southeast Asian 
+                            Arts discourse, and question the relevance of community 
+                            and globalisation in our fractured times. Following this, 
+                            they presented their findings and responses before XEM 
+                            and their peers at the galleries. 
+                        </p>
+                        <p>Additionally, over 200 Year 1 diploma students attended 
+                            an exhibition tour where XEM shared their journey both as 
+                            individual artists and as a collective. XEM also articulated 
+                            their intentions and thoughts on diversity pertaining to 
+                            Vietnamese culture. The students learnt about challenges 
+                            faced by artists as they strive for social and creative 
+                            growth, and had a chance to participate in an exchange 
+                            with others who share similar interests and values with 
+                            them.
+                        </p>
+                        <p><i>XEMX: 5 Friends 10 Years Art Infinite</i> promoted vitality and 
+                            diversity in art practice, serving as a foundation for young, 
+                            aspiring artists to boldly kickstart their experimental art 
+                            journey.
+                        </p>
+                    </div>
+
+                    <div class="slideshow-container">
+
+                        <div class="imgs-slider slide-transition">
+                            <video width="100%" class="vertical-video" id="strokeVideo" autoplay muted playsinline controls>
+                                <source src="theme/default/images/XEMX artist interviews.mp4" type="video/mp4">
+                    
+                                Your browser does not support the video tag.
+                            </video>
+                            </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-1.jpg" />
+                            <p>
+                                <i>
+                                Installation view of XEMX: 5 Friends 10 Years Art Infinite exhibition - 
+                                from right, video of Phan Quang, to left, photographic installation of Nguyễn Thanh Trúc 
+                            </i>
+                        </p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-2.jpg" />
+                            <p><i>Installation view of XEMX: 5 Friends 10 Years Art Infinite exhibition featuring the works of Hoàng Dương Cầm and Ưu Đàm Trần Nguyễn</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-3.jpg" />
+                            <p><i>Installation view of XEMX: 5 Friends 10 Years Art Infinite exhibition featuring the works of Quang Lâm</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-4.jpg" />
+                            <p><i>Artist Ưu Đàm Trần Nguyễn introducing XEM, the collective to students at the start of the Art Clinic session.</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-5.jpg" />
+                            <p><i>Students from the School of Design & Media presenting their findings and responses on their selected artwork from the exhibition, using a set of guiding questions.</i></p>
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-6.jpg" />
+                            <p><i>Artist Nguyễn Thanh Trúc sharing with NAFA students his photographic installation and video work.</i></p>
+                        </div>
+
+                        <!-- <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-7.jpg" />
+                            <p><i>XEM collective in dialogue with diploma students at the General Studies module.</i></p>
+                        </div> -->
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/Image-8.jpg" />
+                            <p><i>XEM collective in dialogue with Year 1 diploma students at the General Studies module.</i></p>
+                        </div>
+                      
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                    
+                   
+                </div>
+
+                <div class="collaboration-content">
+
+                    <div class="slideshow-container">
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/_MG_2513.jpg" />
+                            <p><i>Saudade, 2023, by Amirah Zahirah Binte Abu Bakar, Erin Nashira Binte Rudy Hesty, Heng Ying Xuan, Shana Selvan, Vinod Arnav, Calista (Assisi Hospice)</i></p>
+                           
+                        </div>
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/_MG_2464.jpg" />
+                            <p><i>Objects of Solace, 2023, by Bhavatarini Damodaran, Clea Amelia Soebroto, Kamelia Tufah Kenchana Bte S, 
+                                Neo Yue Ting, Nur Izzah Binte Mohamad Iskandar, Grace (Assisi Hospice)</i>
+                            </p>
+                        </div>
+
+                       
+
+                        <div class="imgs-slider slide-transition">
+                            <img src="theme/default/images/_MG_2630.jpg" />
+                            <p><i>Decorating Life, 2023, by Ang Zhi Yan, Gabriel Tay Kai Xian, Jayna Lee Wei Ning, 
+                                Nathan Oh Shaohong, Phang Xiao Feng (Assisi Hospice)</i></p>
+                        </div>
+
+                      
+                        <a class="previous">❮</a>
+                        <a class="next">❯</a>
+                    </div>
+                    <div class="collab-con-right">
+                        <h2>Stories of Care III</h2>
+                        <p> <i>Stories of Care III</i>, a collaboration between Year 2 Fine Art 
+                            degree students from NAFA and personnel from the Assisi 
+                            Hospice, was designed to facilitate deep cross-disciplinary 
+                            exchanges between the healthcare and art education 
+                            sectors. 
+                        </p>
+                        <p>The third edition of the project fostered appreciation for 
+                            healthcare practices, and raised awareness of topics 
+                            relating to vulnerable communities, palliative and broader 
+                            notions of care. It also encouraged contemplation on what 
+                            it means to have empathy and dignity in the face of end-of
+                            life issues. 
+                            </p>
+                        <p>Assisi Hospice personnel shared moving stories about their 
+                            personal and professional experiences, giving students 
+                            a chance to dive deep into the contributions of medical 
+                            social workers and pastoral carers. Together, they co-created a collection of artworks based on these stories. 
+                            The work was displayed at the hospice as well as a public 
+                            exhibition—advocating for art's place in non-art settings 
+                            and the value of peer-sharing.
+                        </p>
+                        
+                    </div>
+
+                
+            </div>
+
+    <div class="collaboration-content">
+                    
+        <div class="collab-con-right">
+            <h2>Lao Fashion Week 2023</h2>
+            <p> Testament to the exceptional talent and creativity of 
+                of NAFA's students, the School of Fashion Studies was 
+                invited to participate in Lao Fashion Week 2023, the most 
+                prestigious international fashion gathering in Laos which 
+                sees participation from designers all around Southeast 
+                Asia. Three standout outfits from the graduation collections 
+                of 2023 Diploma in Fashion Design graduates, Chua Jia 
+                Ling and Quek Yu Tong, were presented at the event. 
+            </p>
+            <p>Chua's <i>Anatomy</i> collection, inspired by the intricacies of 
+                the human anatomy, was tailored for the Spring/Summer 
+                2024 season. The collection featured precise, well-fitted 
+                silhouettes that reflect the structural integrity of the body, 
+                alongside flowy pieces that capture the fluidity and natural 
+                motion of the human body.   
+                </p>
+            <p>Quek's <i>Saccharine Rush</i> collection, designed for Spring/Summer 
+                2024, drew inspiration from the adrenaline rush. 
+               It captured the sweetness, sentimentality and nostalgia 
+               that one might experience during moments of excitement, 
+               fun, receiving undying love, or even having a good dream. 
+            </p>
+            
+        </div>
+
+        <div class="slideshow-container">
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/Chua-Jia-Ling-01.jpg" />
+                <p>
+                   <i>Photo credit: Jean-Christophe Olry</i>
+                </p>
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/Chua-Jia-Ling-02.jpg" />
+                <p>
+                    <i>Photo credit: Jean-Christophe Olry</i>
+                 </p>
+               
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/Quek-Yu-Tong-01.jpg" />
+                <p>
+                    <i>Photo credit: Jean-Christophe Olry</i>
+                 </p>
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/Quek-Yu-Tong-02.jpg" />
+                <p>
+                    <i>Photo credit: Jean-Christophe Olry</i>
+                </p>
+            </div>
+
+          
+            <a class="previous">❮</a>
+            <a class="next">❯</a>
+        </div>
+       
+    </div>
+
+    <div class="collaboration-content">
+        <div class="slideshow-container">
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/NAFA-3085.jpg" />
+                <p>
+                   <i>Photo credit: Lim Shao Yong</i> 
+                </p>
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/NAFA-3626.jpg" />
+                <p>
+                   <i>Photo credit: Lim Shao Yong</i> 
+                </p>
+            </div>
+
+            <!-- <div class="imgs-slider slide-transition">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U9DpBiTXcLA?si=OfDOzgQLopcqIuZ8" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               
+            </div> -->
+
+           
+
+          
+            <a class="previous">❮</a>
+            <a class="next">❯</a>
+        </div>
+        <div class="collab-con-right">
+            <h2>NAFA 85<sup>th</sup> Anniversary Celebration Concert</h2>
+            <p>The NAFA School of Music (SOM) put on a memerising 
+                display of musical excellence at the NAFA 85<sup>th</sup> Anniversary 
+                Celebration Concert. The concert was held on 8 April 
+                2023 at the Victoria Concert Hall, and supported by the 
+                Singapore Symphony Orchestra. 
+            </p>
+            <p>SOM opened the event with the world premiere of a 
+                specially-commissioned work by Head of Composition 
+                at SOM, Dr Zechariah Goh, recipient of the 2014 NAFA 
+                Distinguished Alumni Medal and 2003 National Arts 
+                Council's Young Artist Award.    
+                </p>
+            <p>Led by Artistic Director, Maestro Lim Yau and in partnership 
+                with The Philharmonic Orchestra Singapore, the NAFA 
+                Orchestra then presented Prokofiev's <i>Symphony No. 5</i>, 
+                a piece described by esteemed conductor Serge 
+                Koussevitzky in the November 1945 <i>Time</i> magazine as “the 
+                greatest musical event in many, many years”. Zhu Zunzun, 
+                Grand Prize Winner of the NAFA Concerto Competition 
+                2022/2023, played the soloist in Prokofiev's lyrical and 
+                virtuosic <i>Violin Concerto No. 2 in G minor, Op. 63</i>.
+            </p>
+
+            <p>This concert highlighted the artistic sensitivities and 
+                technical competencies of NAFA's students, faculty 
+                members and alumni, marking a significant milestone in 
+                NAFA's illustrious history.
+            </p>
+            
+        </div>
+    
+   
+</div>
+
+
+<div class="collaboration-content">
+    
+    <div class="collab-con-right">
+        <h2>Crossings</h2>
+        <p>Crossings is an annual celebration of Singapore's emerging 
+            dance talents. The 2023 edition, held on 12 and 13 May, 
+            offered a diverse showcase of dance works featuring  
+            distinguished  local  and international guest choreographers.
+        </p>
+        <p>Jacky Yu from Hong Kong mesmerised the audience with 
+            his high level of individualism and fluidity  of contemporary 
+            movement language in <i>Lights Up 15</i> , while Gillian Tan 
+            from Singapore expertly put together music, dance and 
+            fashion for a stunning display of <i>In Transition</i>. Shahrin 
+            Johry from Singapore restaged <i>Belladonna NightShade</i>,
+             a contemporary piece with roots in Bharathanatyam and 
+            street; and Jeffrey Tan, also from Singapore, revisited the 
+            excerpt <i>Amalgamation</i>—a piece that managed to challenge 
+            the dancers' movement vocabulary while retaining the 
+            strength and beauty of classical ballet.   
+            </p>
+        <p>The repertoire of performances underscored the edge 
+            and versatility of NAFA's dancers, cementing our status 
+            in Southeast Asia as a leader in conservatory-styled 
+            programmes with a contemporary outlook.
+        </p>
+        
+    </div>
+
+    <div class="slideshow-container">
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/BNG_230511_NAFA_Crossings_209.jpg" />
+            <p>
+               <i>Photo credit: Bernie Ng</i> 
+            </p>
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/BNG_230511_NAFA_Crossings_354.jpg" />
+            <p>
+               <i>Photo credit: Bernie Ng</i> 
+            </p>
+        </div>
+
+       
+
+      
+        <a class="previous">❮</a>
+        <a class="next">❯</a>
+    </div>
+   
+</div>
+
+<div class="collaboration-content">
+
+    <div class="slideshow-container">
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/My-Art-Our-Voices-Group-Shape-2.jpg" />
+           
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/leap-6-My-Art-Our-Voices-Group-Mirror.jpg" />
+           
+        </div>
+    
+        <a class="previous">❮</a>
+        <a class="next">❯</a>
+    </div>
+    
+    <div class="collab-con-right">
+        <h2>My Art, Our Voices</h2>
+        <p> NAFA's Bachelor of Arts (Honours) Performance Making 
+            Year 1 students and Interdisciplinary Project diploma 
+            students presented <i>My Art, Our Voices</i> as a performative 
+            response to the large-scale exhibition <i>Tropical: Stories 
+                from Southeast Asia and Latin America</i> at National Gallery 
+            Singapore. Inspired by the exhibition's themes such as   
+            'The Myth of the Lazy Native', 'This Earth of Mankind', and 
+            'The Subversive', the compelling performance opened 
+            with the manifesto “My Art, 'Art of Liberation'” by Semsar 
+            Siahaan (Jakarta,1988). It continued with a non-linear 
+            journey through traditional and contemporary realms, 
+            showcasing beautiful, confident, post-colonial reclaimed 
+            identities through movement, dance, text, moving images 
+            and sound. 
+        </p>
+       
+        
+    </div>
+
+
+</div>
+
+<div class="collaboration-content">
+    
+<div class="collab-con-right">
+    <h2>Walk With Me</h2>
+    <p><i>Walk With Me</i> was an immersive installation that encouraged visitors to take a break from the hustle of daily life and 
+        embrace the present moment. Held in conjunction with Singapore Night Festival 2023, the installation leveraged visual, 
+        sound and motion detection technology to trigger vibrant colours and audio effects as visitors passed. The unexpected 
+        twist captured their attention, prompting them to take a breather and rediscover a sense of childlike wonder.  
+    </p>
+    <p>The installation design was developed by Dayn Ng, sound artist and NAFA alumnus, and Iskander Abori, Programme 
+        Leader (Projects & Outreach), Faculty of Interdisciplinary Practices. Graphic design was by Bachelor of Arts (Honours) 
+        Design Practice student, Oh Jun Wei.
+    </p>
+    
+    <!-- <p>The repertoire of performances underscored the edge 
+        and versatility of NAFA's dancers, cementing our status 
+        in Southeast Asia as a leader in conservatory-styled 
+        programmes with a contemporary outlook.
+    </p>
+
+    <p>
+        <a href="https://www.instagram.com/p/CwAFgxtSRRH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+            Click here for IG Post
+        </a>
+        <br/>
+        <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODY0MjM0MjI1OTg2NzUy?story_media_id=3171827834876595086&igsh=MWN2bzl4Y3YyMGtqNg==" target="_blank">
+            Click here for IG Story
+        </a>
+    </p> -->
+
+    
+    
+</div>
+
+<div class="slideshow-container">
+    <div class="imgs-slider slide-transition">
+        <iframe width="560" height="381" src="https://www.youtube.com/embed/RYEnUCOnjEg?si=AhOa3XbmKDjcKnnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+
+        <img src="theme/default/images/006_WWM20230824.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/018_WWM20230824.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/019_WWM20230824.jpg" />
+       
+    </div>
+   
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/028_WWM20230824.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/037_WWM20230824.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/045_WWM20230824.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/048_WWM20230824.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/049_WWM20230824.jpg" />
+       
+    </div>
+
+    <!-- <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/055_WWM20230826.jpg" />
+       
+    </div> -->
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/057_WWM20230826.jpg" />
+       
+    </div>
+
+    <div class="imgs-slider slide-transition">
+        <img src="theme/default/images/058_WWM20230826.jpg" />
+       
+    </div>
+
+
+  
+    <a class="previous">❮</a>
+    <a class="next">❯</a>
+</div>
+
+</div>
+
+<div class="collaboration-content">
+
+<div class="slideshow-container">
+
+<div class="imgs-slider slide-transition">
+    <img src="theme/default/images/Slide23.jpg" />
+ 
+</div>
+
+<div class="imgs-slider slide-transition">
+    <img src="theme/default/images/DSC_3307.JPG" />
+    
+</div>
+
+<div class="imgs-slider slide-transition">
+    <img src="theme/default/images/MicrosoftTeams-image-(44).jpg" />
+    
+</div>
+
+
+
+<a class="previous">❮</a>
+<a class="next">❯</a>
+</div>
+
+<div class="collab-con-right">
+    <h2>Memories of Jogja: A showcase of NAFA's first Overseas Immersion Programme in Arts Management</h2>
+    <p><i>Memories of Jogja</i> showcased works from the first 
+        successful Overseas Immersion Programme (OIP) for 
+        Arts Management students at Institut Seni Indonesia 
+        Yogyakarta (ISI Yogyakarta). Open to all visitors during the 
+        NAFA Open House 2024, the exhibition displayed diverse 
+        works done by the Year 3 students during and after the OIP, 
+        including photographs, videos, batik pieces and postcards. 
+        Visitors were also treated to Indonesian snacks 'Tastes 
+        of Jogja' and participated in a gamelan interactive activity 
+        'Sounds of Jogja'. 
+    </p>
+   
+    <p>The 2023 OIP is significant as it marked the first 
+        partnership between ISI Yogyakarta's Arts Management 
+        programme (Tata Kelola Seni) and the NAFA School of Arts 
+        Management. ISI Yogyakarta's programme is part of their 
+        Faculty of Visual Arts and boasts academic staff with strong 
+        expertise in visual arts management, archive curation, and 
+        traditional arts and artifact management. 
+    </p>
+
+    <p>Our Arts Management students benefited from insightful 
+        lectures and workshops. The lecture, 'Volunteerism and 
+        the Jogja Biennale', which detailed the development of 
+        volunteer programmes was noteworthy as it aligned with 
+        NAFA's efforts to encourage volunteerism among students. 
+        All in all, the enriching experience underscored the 
+        significance of international collaboration in broadening our 
+        students' educational and cultural horizons.
+    </p>
+
+    <!-- <p>
+        <a href="https://www.instagram.com/reel/CyA4rW7vqYH/" target="_blank">Click Here for IG Reel</a>
+    </p> -->
+    
+    
+</div>
+
+
+</div>
+
+<div class="collaboration-content">
+    
+<div class="collab-con-right">
+<h2>NAFA partners SMU for programmes in arts and business</h2>
+<p>On 19 May 2023, the NAFA Centre for Lifelong Education 
+    (CLE) and SMU Academy signed a Memorandum of 
+    Understanding to develop and offer the SMU-NAFA 
+    Advanced Certificate in Arts Management for Arts 
+    Professionals, and the SMU-NAFA Advanced Certificate in 
+    Mastering Design Literacy for Marketing programmes. This 
+    collaboration is significant as it marks NAFA CLE’s entry 
+    into the corporate training market. It also reaffirms our 
+    position in the Continuing Education and Training (CET) 
+    sector. By leveraging the expertise of NAFA and SMU, 
+    these programmes will empower learners with unique 
+    perspectives needed to enhance their professional practice 
+    in marketing and arts management. We are confident this 
+    partnership will bring together the arts and business, to 
+    enrich both lives and communities through education and 
+    practice. 
+</p>
+
+
+</div>
+
+<div class="detail-left-img">
+<img src="theme/default/images/NAFA-SMU MOU signing.png" />
+</div>
+
+
+</div>
+
+<div class="collaboration-content">
+<div class="slideshow-container">
+
+    <div class="imgs-slider slide-transition">
+        <!-- <video width="100%" id="strokeVideo" autoplay muted controls>
+            <source src="theme/default/images/JA Art Carnival 2023 Video 01.mov" type="video/mp4">
+    
+            Your browser does not support the video tag.
+        </video> -->
+        <iframe width="560" height="381" src="https://www.youtube.com/embed/aZ6U2KONfQg?si=gyNie8GP6wogzymY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    
+        <div class="imgs-slider slide-transition">
+            <!-- <video width="100%" id="strokeVideo" autoplay muted controls>
+                <source src="theme/default/images/JA Art Carnival 2023 Video 02.mov" type="video/mp4">
+    
+                Your browser does not support the video tag.
+            </video> -->
+            <iframe width="560" height="381" src="https://www.youtube.com/embed/4WGxTMl0HQg?si=fEesafVLVAltiys0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+<div class="imgs-slider slide-transition">
+    <img src="theme/default/images/JA-Art-Carnival-2023-01.jpg" />
+ 
+</div>
+
+<!-- <div class="imgs-slider slide-transition">
+    <img src="theme/default/images/JA-Art-Carnival-2023-02.jpg" />
+    
+</div> -->
+
+<div class="imgs-slider slide-transition">
+    <img src="theme/default/images/JA-Art-Carnival-2023-03.jpg" />
+    
+</div>
+
+<div class="imgs-slider slide-transition">
+    <img src="theme/default/images/JA-Art-Carnival-2023-04.jpg" />
+    
+</div>
+
+
+
+
+<a class="previous">❮</a>
+<a class="next">❯</a>
+</div>
+
+<div class="collab-con-right">
+    <h2>JA Art Carnival 2023</h2>
+    <p>From 6 to 8 October 2023, NAFA's campus grounds were 
+        transformed into a vibrant platform of creativity for Junior 
+        Art's biennial Art Carnival. Excitement filled the carnival 
+        as students and the public alike tried their hands at a 
+        myriad of art and craft activities, all designed to elicit one's 
+        imagination and spark joy. Highlights of the event included 
+        interactive stations for participants to unleash their inner 
+        artist, and free popcorn to celebrate Children's Day 2023. 
+        The carnival was a joyous celebration of artistic expression 
+        and community spirit, making it an unforgettable event for 
+        everyone involved. 
+    </p>
+  
+    
+</div>
+</div>
+
+    <div class="collaboration-content">
+                    
+        <div class="collab-con-right">
+            <h2>Junior Drama student's work shines on Spotify, radio and film</h2>
+            <p> At just 11 years old, Junior Drama Performance Ensemble 
+                student Aurvi Jain launched her first podcast. Her work 
+                was inspired by the Communication Skills class she took in 
+                2023, where she achieved a high Distinction in her Trinity 
+                Grade 5 Communication Skills examinations.
+            </p>
+
+            <p>During her time in class, Jain researched on environmental 
+                and animal protection. She also dived deep into the impact 
+                our behaviour has on the earth. Motivated to do more for 
+                our environment, she developed a podcast to share her 
+                views. 
+            </p>
+
+            <p>Jain's podcast episode aired on Spotify and was featured 
+                on Money FM 89.3 on 1 March 2024. She also completed 
+                a film project with Damon Gameau, an Australian actor, 
+                director and producer known for the documentaries 
+                <i>That Sugar Film</i> and 2040. Their collaboration, set to 
+                be released later in 2024, signifies Jain's commitment 
+                to making a positive difference through her creative 
+                endeavours.
+            </p>
+           
+            
+        </div>
+
+        <div class="slideshow-container">
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/JDR-Radio-(Money-FM-89.3).jpg" />
+             
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/JDR-Spotify-Podcast.jpg" />
+                
+            </div>
+          
+            <a class="previous">❮</a>
+            <a class="next">❯</a>
+        </div>
+       
+    </div>
+
+    <div class="collaboration-content">
+        <div class="slideshow-container">
+            <!-- <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0030.jpg" />
+             
+            </div> -->
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0036.jpg" />
+             
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0032.jpg" />
+             
+            </div>
+
+            <!-- <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0033.jpg" />
+             
+            </div> -->
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0034.jpg" />
+             
+            </div>
+<!-- 
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0035.jpg" />
+             
+            </div> -->
+
+          
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0038.jpg" />
+             
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0039.jpg" />
+             
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0040.jpg" />
+             
+            </div>
+
+            <div class="imgs-slider slide-transition">
+                <img src="theme/default/images/IMG-20240508-WA0041.jpg" />
+             
+            </div>
+          
+            <a class="previous">❮</a>
+            <a class="next">❯</a>
+        </div>
+        <div class="collab-con-right">
+            <h2>Mother Tongue Languages Symposium 2023</h2>
+            <p>The annual Mother Tongue Languages Symposium (MTLS) 
+                aims to promote Mother Tongue Languages (MTLs) by 
+                sharing best practices for teaching and learning. Organised 
+                by the Ministry of Education (MOE), the Committee to 
+                Promote Chinese Language Learning (CPCLL), the Malay 
+                Language Learning and Promotion Committee (MLLPC) and 
+                the Tamil Language Learning and Promotion Committee 
+                (TLLPC), the symposium is targetted at educators at 
+                preschool and lower primary levels, as well as parents with 
+                young children. 
+            </p>
+          
+            <p>In 2023, the NAFA Arts Preschool (APS) was invited 
+                by the Early Childhood Development Agency (ECDA) to 
+                participate and showcase our Chinese curriculum. We 
+                presented our innovative teaching approach, including the 
+                Project Approach for Chinese language, and shared a range 
+                of reading materials and resources designed to enrich 
+                language learning. Encouraged by the reception to our 
+                Mulan-inspired performance in 2022, we also explained 
+                how we integrated traditional folktales into various art 
+                forms to enhance learning experiences. To further engage 
+                our audience, we planned interactive Mandarin games, to 
+                create an immersive and educational experience for all. 
+            </p>
+
+            <p>Response was overwhelmingly positive. Supportive 
+                APS parents visited our booth at the Suntec Singapore 
+                Convention & Exhibition Centre. Numerous parents 
+                also expressed interest in our distinctive curriculum 
+                and approach. We are honoured to have this invaluable 
+                opportunity to foster a love for the Chinese language and 
+                culture.</p>
+            
+        </div>
+    
+   
+</div>
+
+<div class="collaboration-content">
+                    
+    <div class="collab-con-right">
+        <h2>NAFA 85<sup>th</sup> Anniversary Fundraising Gala</h2>
+        <p> As a grand finale for our year-long 85<sup>th</sup> anniversary 
+            celebrations, we held the NAFA 85<sup>th</sup> Anniversary 
+            Fundraising Gala dinner on 2 September 2023 at Capella 
+            Singapore. Themed 'Bold & Gold', the commemorative 
+            event was graced by then Deputy Prime Minister and 
+            Minister for Finance, Mr Lawrence Wong (now Prime 
+            Minister and Minister for Finance).
+        </p>
+
+        <p>The evening featured a multi-sensory experience that 
+            showcased NAFA's community of outstanding talents. 
+            Magnificent works of alumni and Faculty of Art & Design 
+            students were on display. Lecturers, students and alumni 
+            from the School of Dance and School of Music put on 
+            memerising performances. There was also a live auction 
+            featuring iconic works by distinguished artists such as 
+            Cultural Medallion recipient Han Sai Por, Tay Bak Chiang, 
+            Boo Sze Yang and more.
+        </p>
+
+        <p> With the generous support of our patrons and donors, we 
+            raised more than S$1.2 million for the NAFA Development 
+            Fund, which will further the academy's mission of inspiring 
+            learning and growth through the arts.
+        </p>
+       
+        
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="imgs-slider slide-transition">
+            <iframe width="560" height="381" src="https://www.youtube.com/embed/XYnoBV6Fbw0?si=V0TVxzQGheVgRveO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+       
+       
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/002.JPG" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/015.jpg" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/132.jpg" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/140.jpg" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/143.jpg" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/148.jpg" />
+         
+        </div>
+
+       
+      
+        <a class="previous">❮</a>
+        <a class="next">❯</a>
+    </div>
+   
+</div>
+
+<div class="collaboration-content">
+    <div class="slideshow-container">
+        <div class="imgs-slider slide-transition">
+            <video width="100%" class="vertical-video" autoplay muted controls playsinline>
+                <source src="theme/default/images/85YM - Compilation of Videos and Pictures.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+         
+        </div>
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/IMG_1972.JPG" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/IMG_2035.JPG" />
+         
+        </div>
+
+
+        
+
+       
+      
+        <a class="previous">❮</a>
+        <a class="next">❯</a>
+    </div>
+   
+    <div class="collab-con-right">
+        <h2>85 Years in 85 Minutes Concert</h2>
+        <p> In commemoration of NAFA's 85<sup>th</sup> anniversary, the NAFA 
+            Music Alumni Chapter and Alumni Relations Office, came 
+            together with Voices of Singapore to present an energetic 
+            and dynamic concert showcasing the academy's musical 
+            talents spanning from the 1980s to 2023.
+        </p>
+      
+        <p> Past music alumni scholars were invited to contribute, 
+            and together with the generous support of the NAFA 
+            Collaborative Lab Grant, the unique event successfully 
+            intertwined live performances with nostalgic campus 
+            stories. This allowed the NAFA community to reminisce 
+            about their post-graduation journeys and celebrate the 
+            profound impact alumni have had both on campus, and in 
+            the wider community.
+        </p>
+
+        <p> The 85-minute concert, the first of its kind since the NAFA 
+            School of Music (SOM) was established in 1984, was held 
+            at the prestigious CHIJMES Hall on 6 September 2023. 
+            Nearly 200 SOM faculty, alumni and students attended. 
+            176 tickets were sold, surpassing the initial plan of 150 
+            seats. The proceeds of S$6,400, raised from ticket sales, 
+            donations and ad purchases, were donated to the NAFA 
+            Education Fund. The event was a heartfelt celebration 
+            of musical excellence and camaraderie, highlighting the 
+            enduring legacy and the vibrant future of NAFA's
+             musical community.
+        </p>
+        
+    </div>
+
+
+</div>
+
+<div class="collaboration-content">
+                    
+    <div class="collab-con-right">
+        <h2>NAFA Convocation 2023</h2>
+        <p>On 28 and 29 September, we celebrated the achievements 
+            of 751 graduates from the Class of 2023. Held at the 
+            Lee Foundation Theatre, the convocation was graced by 
+            Guest of Honour Dr Mohamad Maliki Osman, Minister, 
+            Prime Minister’s Office, Second Minister for Education and 
+            Foreign Affairs. It was attended by over 1,100 family and 
+            friends of graduates. 
+        </p>
+
+        <p>Within the graduates were the pioneering cohorts from our 
+            programmes with both the University of the Arts London 
+            and the Royal College of Music’s Bachelor of Education 
+            (Honours) in Instrumental & Vocal Teaching. Additionally, 
+            the first batch of students from our NAFA Foundation 
+            Programme graduated from the diploma programmes.
+        </p>
+
+        <p> At the convocation, NAFA presented the Distinguished 
+            Alumni Medal to Isyana Sarasvati, one of Indonesia’s most 
+            influential female musicians and a NAFA alumna who 
+            completed her Diploma in Music in 2013 and Bachelor of 
+            Music (Honours) in 2015. Various accolades  were also 
+            presented to outstanding graduates who exemplify NAFA’s 
+            core values of creativity, exploration and resilience. These 
+            included the Embassy of Peru Award, The Ngee Ann Kongsi 
+            Gold Medal, NAFA Chairman Award, NAFA President 
+            Award, and the Wu Tsung Kan Book Prize.
+        </p>
+
+        <p> To date, over 19,000 artists and creatives have graduated 
+            from NAFA and gone on to contribute significantly to the 
+            arts landscape both in Singapore and beyond.
+        </p>
+       
+        
+    </div>
+
+    <div class="slideshow-container">
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/NAFAS1_0551.jpg" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/NAFAS1_0778.jpg" />
+         
+        </div>
+      
+        <a class="previous">❮</a>
+        <a class="next">❯</a>
+    </div>
+   
+   
+   
+</div>
+
+<div class="collaboration-content">
+    <div class="slideshow-container">
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/Orientation-2023.jpg" />
+         
+        </div>
+
+        <div class="imgs-slider slide-transition">
+            <img src="theme/default/images/Welcome-by-President.jpg" />
+         
+        </div>
+
+        
+
+       
+      
+        <a class="previous">❮</a>
+        <a class="next">❯</a>
+    </div>
+    <div class="collab-con-right">
+        <h2>A warm welcome to the AY2023/2024 intake</h2>
+        <p> Orientation for the AY2023/2024 diploma students was 
+            held between 31 July and 4 August 2023. During this time, 
+            students attended online briefings on student support 
+            services held by the Offices of Student Affairs, Student 
+            Care, Information Technology, and EdTech.
+        </p>
+      
+        <p> In addition, students were invited on campus for a 
+            welcome address by NAFA President, Mrs Tan-Soh Wai 
+            Lan, to meet the faculty, and to participate in activities 
+            organised by each school. Student Leaders also led 
+            campus tours for new students to familiarise themselves 
+            with the campus facilities. The orientation effectively 
+            combined information, inspiration and interaction, ensuring 
+            a successful onboarding experience for the students at 
+            NAFA.
+        </p>
+
+       
+        
+    </div>
+
+
+</div>
+</div>
+    </div>
+            
+        </div>
+
+        <div class="container next-container bg-white leaping-forward" id="leaping-forward-towards-nafa100">
+            <div class="container-wrapper">
+                <div class="stroke-container">
+                    <video id="strokeVideo-leaping" autoplay muted playsinline>
+                        <source src="theme/default/images/towards-nafa100v2.webm" type="video/webm">
+        
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="theme/default/images/fashion-student.png" alt="Fashion Student" class="fashion-student" />
+                </div>
+                <h1 class="sub-heading red" id="subheadingLeaping">Leaping forward towards NAFA100</h1>
+            </div>
+
+            <div class="leaping-lead-in">
+                <p>
+                    The last decade has seen NAFA ride the waves of 
+                    change and emerge triumphant. We have integrated 
+                    new technological approaches into our pedagogy and 
+                    overcome the challenges thrust our way by COVID-19. 
+                    As we reflect on the lessons learnt and celebrate 
+                    our accomplishments, we are also looking to the 
+                    future, seeking new and innovative ways to transform 
+                    arts education, empower budding artists, and offer 
+                    platforms for co-creation—ultimately, continuing our 
+                    legacy as a leading arts institution in Southeast Asia.
+                </p>
+            </div>
+            <div class="slider-wrapper" id="leapingContentWrapper">
+                <div class="leaping-content">
+                    <div class="leaping-con">
+                        <div class="slideshow-container" id="c2">
+                            <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/leap-1-Board-of-Directors-Retreat.jpg" />
+                                <p><i>Board of Directors Retreat</i></p>
+                            </div>
+                            <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/leap-2-Management-Retreat.jpg"  />
+                                <p><i>Management Retreat</i></p>
+                            </div>
+                            <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/leap-3-Staff-Dialogue-Session.jpg"  />
+                                <p><i>Staff Dialogue Session</i></p>
+                            </div>
+                            <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/leap-4-Industry-Engagement.jpg"  />
+                                <p><i>Industry Engagement</i></p>
+                            </div>
+                            <!-- <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/leap-5-039_WWM20230824.jpg"  />
+                            </div>
+                            -->
+                            <!-- <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/leap-6-My-Art-Our-Voices-Group-Mirror.jpg"  />
+                            </div> -->
+                            
+                            <a class="previous">❮</a>
+                            <a class="next">❯</a>
+                        </div>
+                        <div class="leaping-con-right">
+                            <p> Nearing the end of our previous 10-Year Strategic Plan, 
+                                NAFA took into account the considerable internal and 
+                                external developments and began working on our strategy 
+                                for the next era in 'NAFA100 Strategic Vision Masterplan', 
+                                a strategic masterplan anchored in our vision, mission and 
+                                core values. It outlines four strategic priorities: Academic 
+                                Alchemy, Courage to Create, Empathy, and the SEA Arts 
+                                Dimension for the academy to stride towards its centennial 
+                                anniversary in 2038. 
+                            </p>
+                            <p><strong>Academic Alchemy</strong> will see NAFA provide a transformative,
+                                creative education focused on mastery of practice and 
+                               lifelong learning. Our students are already globally sought
+                               after  for their  creative talents, resilience and leadership.  
+                               In the future, we will continue developing partnerships as 
+                               part of an International Engagement Strategy, so we may 
+                               elevate international collaborations and promote further 
+                               research and knowledge exchange.
+                            </p>
+                            <p><strong>Courage to Create</strong> entails nurturing a culture of innovation 
+                                and enterprise. Besides encouraging our community to 
+                                lead in arts, education and workplace practices, we will 
+                                also highlight the importance of respecting heritage while 
+                                championing innovation. 
+                            </p>
+                            
+                            <p><strong>Empathy</strong> focuses on programmes and partnerships to 
+                                effect positive social impact. The quality of empathy in a 
+                                hyper-connected world empowers artists and creatives to 
+                                make a positive impact through the intrinsic value of arts 
+                                and design. 
+                            </p>
+                            <p>Finally, the <strong>SEA Arts Dimension</strong> establishes NAFA as 
+                                a beacon and gateway for Southeast Asian (SEA) Arts. 
+                                Through our Institute of Southeast Asian Arts and other 
+                                resources such as the Living Archive of Contemporary 
+                                Asian Art, we will expand our sphere of influence in the 
+                                region, and attain a global reputation as a thought leader in 
+                                SEA arts.
+                            </p>
+                            <p> These strategic priorities span academic, cultural and 
+                                social dimensions, and underscore NAFA's dedication 
+                                to employing a holistic educational approach. With them 
+                                in place, we aim to deliver transformative educational 
+                                experiences, cultivate an innovative culture, foster empathy 
+                                and social impact—ultimately solidifying our position as a 
+                                leader in the Southeast Asian arts landscape. 
+                            </p>
+                        </div>
+                    </div>
+        
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container next-container bg-black giving-back" id="giving-back">
+            <div class="container-wrapper">
+                <div class="stroke-container">
+                    <video id="strokeVideo-giving" autoplay muted playsinline>
+                        <source src="theme/default/images/giving-back-v2.webm" type="video/webm">
+        
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="theme/default/images/schoolofmusicstudent.png" alt="school of music student"
+                    class="music-student" />
+                </div>
+                <h1 class="sub-heading" id="subheadingGiving">Giving Back</h1>
+            </div>
+            <div class="slider-wrapper" id="givingSlider" >
+                
+                <p class="giving-back-text" style="color: #fff;" >Each dollar you donate to NAFA goes beyond simply supporting our scholarly initiatives and building the
+                    academy's capabilities. It also sends a powerful message of encouragement to students, faculty and
+                    staff—affirming them that their work is important and that you believe in their artistic pursuits. For
+                    every one in four students who is in need of financial support, your contribution can be pivotal in
+                    unlocking their passions and making their dreams come true. Step up to be the difference, and empower
+                    our community with the courage to create.</p>
+                
+                    <div class="giving-card-sec">
+                        <div class="giving-card">
+                            <div class="slideshow-container" id="slider6">
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/arts-in-motion-1.jpg" />
+                                </div>
+                                
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/arts-in-motion-2.jpg"/>
+                                </div>
+                                
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/arts-in-motion-3.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/arts-in-motion-4.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/arts-in-motion-5.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/arts-in-motion-6.jpg"/>
+                                </div>
+                                <a class="previous">❮</a>
+                                <a class="next">❯</a>
+                            </div>
+                            <div class="g-c-txt">
+                                <h3>Arts in Motion - NAFA Virtual Challenge</h3>
+                                <p> In 2023, NAFA kicked off its 85<sup>th</sup> anniversary celebrations 
+                                    with the Arts in Motion - NAFA Virtual Challenge. 
+                                    Participants engaged in a healthy activity in support of a 
+                                    worthy cause, igniting both community engagement and a 
+                                    celebration of creativity. The inaugural challenge garnered 
+                                    overwhelming response, raising a combined total of 
+                                    S$122,352 with the generous support of the Tote Board's 
+                                    dollar-for-dollar matching. The money will be directed 
+                                    towards the NAFA Development Fund to enhance campus 
+                                    facilities and resources for students.</p>
+                            </div>
+                        </div>
+                        <div class="giving-card">
+                        <div class="slideshow-container" id="slider6">
+                            <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/uob-2.jpg"/>
+                            </div>
+                            
+                            <div class="imgs-slider slide-transition">
+                                <img src="theme/default/images/uob-3.jpg" />
+                            </div>
+                            
+                            
+                            <a class="previous">❮</a>
+                            <a class="next">❯</a>
+                        </div>
+                            <div class="g-c-txt">
+                                <h3>Five-year strategic partnership with UOB</h3>
+                                <p> NAFA is proud to partner UOB in championing Southeast Asian arts. This five-year partnership will see UOB support three 
+                                    key initiatives at NAFA: artist residencies in Singapore and Paris, the prestigious Southeast Asian Arts Forum, and a new 
+                                    module introducing students to the rich tapestry of Southeast Asian arts.
+                                </p>
+
+                                <p> This collaboration underscores our shared commitment to nurturing artistic talent and appreciation of the arts within 
+                                    the region. We believe UOB's generous support will empower our students, faculty and the wider arts community. In 
+                                    addition, the initiative will solidify NAFA's position as a leading beacon for Southeast Asian arts and foster a vibrant artistic 
+                                    landscape across the region.</p>
+                            </div>
+                        </div>
+                        <div class="giving-card">
+                            <div class="slideshow-container" id="slider6">
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/BertChoong-SFIC-1.jpg" />
+                                </div>
+                                
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/BertChoong-SFIC-2.jpg" />
+                                </div>
+                                
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/BertChoong-SFIC-3.jpg" />
+                                </div>
+                                <a class="previous">❮</a>
+                                <a class="next">❯</a>
+                            </div>
+                            <div class="g-c-txt">
+                                <h3> BertChoong Bursary Fund</h3>
+                                <p> The BertChoong Bursary Fund was established in February 
+                                    2024. This is a S$500,000 initiative to support students in 
+                                    need who are pursuing art and design programmes. Funded 
+                                    by Mr Bert Choong, Presidential Advisor to the Singapore 
+                                    Furniture Industries Council (SFIC), the bursary will aid 
+                                    220 local and international students over the next decade, 
+                                    starting from the 2024 academic year.
+                                </p>
+                               
+                            </div>
+                        </div>
+                        
+                        <div class="giving-card">
+                            <div class="slideshow-container">
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp1.jpg"/>
+                                </div>
+                                
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp2.jpg"/>
+                                </div>
+                                
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp3.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp4.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp5.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp9.jpg"/>
+                                </div>
+
+                                <div class="imgs-slider slide-transition">
+                                    <img src="theme/default/images/Art-camp-grp-photo.jpg"/>
+                                </div>
+
+                                <a class="previous" >❮</a>
+                                <a class="next">❯</a>
+                            </div>
+                            <div class="g-c-txt">
+                                <h3>Courage to Shine Art Camp</h3>
+                                <p> On 31 May 2023, NAFA's CSR committee hosted a 
+                                    heartwarming 'Courage to Shine' Art Camp for children 
+                                    from Morning Star Community Services, Lakeside Student 
+                                    Care, and Care Community Services Society Singapore. 50 
+                                    children from underprivileged families attended and spent 
+                                    a joyful day exploring their artistic talents through clay 
+                                    modelling and painting with DIY pigments.
+                                </p>
+
+                                <p>Thanks to the generous support of the NAFA community 
+                                    and 50 dedicated staff and students who volunteered their 
+                                    time, the camp raised S$3,850 and gave the children an 
+                                    experience to remember!
+                                </p>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="giving-back-info">
+                          <!-- First Box -->
+                        <div class="box-wrapper">
+                            <h3>Benefits of Giving</h3>
+                            <div class="box">
+                                
+                                <div class="icon-list">
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-tax.svg">
+                                        <p>Tax Benefits</p>
+                                    </div>
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-shield.svg">
+                                        <p>Opportunities for Naming Rights</p>
+                                    </div>
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-thumbsup.svg">
+                                        <p>Acknowledgement and Recognition on NAFA's Communication Platforms </p>
+                                    </div>
+                                  
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-speaker.svg">
+                                        <p>Eligible for Cultural Matching Fund</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          
+
+                        <!-- Second Box -->
+                         <div class="box-wrapper">
+                            <h3>NAFA Giving Programmes</h3>
+                            <div class="box">
+                               
+                                <div class="icon-list">
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-hand.svg">
+                                        <p>Scholarships and Financial Awards</p>
+                                    </div>
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-dollar.svg">
+                                        <p>Student Relief&nbsp;Fund</p>
+                                    </div>
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-book.svg">
+                                        <p>Special Projects Award</p>
+                                    </div>
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-oversea.svg">
+                                        <p>Overseas Travel&nbsp;Grant</p>
+                                    </div>
+                                    <div class="icon-item">
+                                        <img src="theme/default/images/icon-search.svg">
+                                        <p>Research</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                        
+
+                    </div>
+                    <div class="giving-video-sec" id="highlights-video">
+                        <h3>Highlights Video</h3>
+                        <iframe width="640" height="480" src="https://www.youtube.com/embed/52ZVtTjBTVU?si=-PbX_fTNmzgdi8dV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+            </div> 
+        
+
+       
+    </div>
+
+    <footer class="footer">
+        <a href="theme/default/pdf/NAFA YIR 2023-2024.pdf" download class="arrow-box">
+        </a>
+        <hr />
+        <a href="theme/default/pdf/NAFA YIR 2023-2024.pdf" download>
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                Download Year in Review 2023/24 Download Year in Review 2023/24 Download Year in Review 2023/24 Download Year in Review 2023/24 Download Year in Review 2023/24 Download Year in Review 2023/24
+            </marquee>
+        </a>
+        
+        <hr />
+        <div class="copyright-txt">
+            <p>Copyright © 2024 Nanyang Academy of Fine Arts.</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <script src="theme/default/js/utility/jquery.min.js"></script>
+    <script src="theme/default/js/utility/gsap.min.js"></script>
+    <script src="theme/default/js/utility/ScrollTrigger.min.js"></script>
+    <script src="theme/default/js/utility/Observer.min.js"></script>
+
+    <script src="theme/default/js/index-bak.js"></script>
+    <script src="theme/default/js/custom.js"></script>
+
+</body>
+
+</html>
